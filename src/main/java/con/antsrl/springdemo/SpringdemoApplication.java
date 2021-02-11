@@ -22,7 +22,7 @@ public class SpringdemoApplication {
 	@Bean
 	public CommandLineRunner demo(ProductRepository repository) {
 		return (args) -> {
-			// save a few customers
+			// save a few products
 			log.info("Adding scaffolding data in memory db");
 
 			var listDummyData = List.of(
